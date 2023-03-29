@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+:root {
+  --primaryColler: #ff5a3c;
+  --priCollHover: #cb3421;
+  --white: #ffffff;
+}
+a {
+  text-decoration: none;
+}
+p {
+  color: #fff;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* this is header section  */
+.header-top-area {
+  background: #0b2c3d;
+  min-height: 40px;
+}
+.header-top-left {
+  display: flex;
+  height: 40px;
+  align-items: center;
+}
+/* CB3421 */
+.header-top-left li a {
+  color: #fff;
+}
+.header-top-right {
+  align-items: center;
+}
+.header-top-right li a i {
+  font-size: 1.1rem;
+  color: var(--white);
+}
+.header-top-btn {
+  background: var(--primaryColler);
+  height: 40px;
+  min-width: 130px;
+  display: flex;
+  line-height: 40px;
+  justify-content: center;
+  text-align: center;
+  transition: 0.3s;
+}
+header-top-btn:hover {
+  background: var(--priCollHover);
+}
+.header-top-btn a {
+  color: var(--white);
+}
