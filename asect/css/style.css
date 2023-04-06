@@ -56,3 +56,17 @@ header-top-btn:hover {
 .header-top-btn a {
   color: var(--white);
 }
+
+/* this is nav section  */
+.menu {
+  background-color: #dd8f8f;
+}
+/* maga dropdown css  */
+.dropdown-menu.shadow.m-auto.show {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.hamburger span {
+  color: #fff;
+}

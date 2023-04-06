@@ -7,8 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Real Estate</title>
 
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- css add  -->
-
   <link rel="stylesheet" href="./asect/css/bootstrap.min.css" />
   <link rel="stylesheet" href="./asect/css/style.css" />
 </head>
@@ -18,9 +21,9 @@
     <div class="header-top-area">
       <div class="container">
         <div class="row d-flex">
-          <div class="col-md-7">
-            <div class="header-top-left gap-md-4">
-              <li><a href="#" class="d-flex gap-md-1 align-items-center"><i
+          <div class="col-md-7 col-sm-12 m-sm-auto">
+            <div class="header-top-left  d-flex justify-content-lg-start justify-content-center gap-4">
+              <li><a href="#" class="d-flex gap-md-1 align-items-center "><i
                     class="ph ph-envelope"></i>info@gmail.com</a>
               </li>
               <li><a href="#" class="d-flex gap-md-1 align-items-center"><i class="ph ph-map-pin"></i>15/A, Nest Tower,
@@ -28,21 +31,153 @@
               </li>
             </div>
           </div>
-          <div class="col-md-5 d-flex justify-content-end">
-            <div class="header-top-right d-flex gap-3 ">
+          <div class="col-md-5 col-sm-12 d-flex justify-content-xl-end gap-xl-3 gap-md-3 justify-content-around">
+            <div class="header-top-right d-flex gap-3 justify-content-sm-start ">
               <li><a href="#"><i class="ph ph-facebook-logo"></i></a></li>
               <li><a href="#"><i class="ph ph-twitter-logo"></i></a></li>
               <li><a href="#"><i class="ph ph-instagram-logo"></i></a></li>
               <li><a href="#"><i class="ph ph-dribbble-logo"></i></a></li>
-              <div class="header-top-btn d-flex justify-content-md-center">
-                <a href="#">Add Listing</a>
-              </div>
+            </div>
+            <div class="header-top-btn d-flex justify-content-md-center">
+              <a href="#">Add Listing</a>
             </div>
           </div>
         </div>
       </div>
 
     </div>
+    <!-- this is nav section  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark navbar-dark shadow py-md-3 ">
+      <div class="container">
+        <a class="navbar-brand logo" href="#">
+          <img src="./asect/img/logo/logo.png" alt="" srcset="">
+        </a>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbar-content">
+          <div class="hamburger-toggle">
+            <div class="hamburger">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+          </div>
+        </button>
+        <!-- nav home  -->
+        <div class="collapse navbar-collapse" id="navbar-content">
+          <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <!-- nav about  -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                data-bs-auto-close="outside">About</a>
+              <ul class="dropdown-menu shadow">
+                <li><a class="dropdown-item" class="dropdown-item" href="#">Gallery</a></li>
+                <li><a class="dropdown-item" href="#">About</a></li>
+                <li><a class="dropdown-item" href="#">Services</a></li>
+                <li><a class="dropdown-item" href="#">Service Details</a></li>
+                <li><a class="dropdown-item" href="#">Portfolio</a></li>
+                <li><a class="dropdown-item" href="#">Portfolio - 02</a></li>
+                <li><a class="dropdown-item" href="#">Portfolio Details</a></li>
+                <li><a class="dropdown-item" href="#">Team</a></li>
+                <li><a class="dropdown-item" href="#">Team Details</a></li>
+                <li><a class="dropdown-item" href="#">FAQ</a></li>
+                <li><a class="dropdown-item" href="#">Google Map Locations</a></li>
+              </ul>
+            </li>
+            <!-- nav shop  -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                data-bs-auto-close="outside">Shop</a>
+              <ul class="dropdown-menu shadow">
+                <li><a class="dropdown-item" href="#">Shop</a></li>
+                <li><a class="dropdown-item" href="#">Shop Grid</a></li>
+                <li><a class="dropdown-item" href="#">Shop Left sidebar</a></li>
+                <li><a class="dropdown-item" href="#">Shop right sidebar</a></li>
+                <li><a class="dropdown-item" href="#">Shop details</a></li>
+                <li><a class="dropdown-item" href="#">Other Pages</a></li>
+
+              </ul>
+            </li>
+            <!-- nav News  -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                data-bs-auto-close="outside">News</a>
+              <ul class="dropdown-menu shadow">
+                <li><a class="dropdown-item" href="#">News</a></li>
+                <li><a class="dropdown-item" href="#">News Grid</a></li>
+                <li><a class="dropdown-item" href="#">News Left sidebar</a></li>
+                <li><a class="dropdown-item" href="#">News right sidebar</a></li>
+                <li><a class="dropdown-item" href="#">News details</a></li>
+                <li><a class="dropdown-item" href="#">News Other Pages</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown dropdown-mega position-static">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                data-bs-auto-close="outside">Page</a>
+              <div class="dropdown-menu shadow m-auto">
+                <div class="mega-content px-4 ">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-12 col-sm-4 col-md-3 py-4">
+                        <h5>Inner Pages</h5>
+                        <div class="list-group">
+                          <a class="list-group-item" href="#">History</a>
+                          <a class="list-group-item" href="#">Add Listing</a>
+                          <a class="list-group-item" href="#">Google Map Locations</a>
+                          <a class="list-group-item" href="#">404</a>
+                          <a class="list-group-item" href="#">Contact</a>
+                          <a class="list-group-item" href="#">Coming Soon</a>
+                        </div>
+                      </div>
+                      <div class="col-12 col-sm-4 col-md-3 py-4">
+                        <h5>Inner Pages</h5>
+                        <div class="list-group">
+                          <a class="list-group-item" href="#">Portfolio</a>
+                          <a class="list-group-item" href="#">Portfolio - 02</a>
+                          <a class="list-group-item" href="#">Portfolio Details</a>
+                          <a class="list-group-item" href="#">Portfolio a</a>
+                          <a class="list-group-item" href="#">Portfolio b</a>
+                          <a class="list-group-item" href="#">Portfolio c</a>
+                          <a class="list-group-item" href="#">Team</a>
+                          <a class="list-group-item" href="#">FAQ</a>
+                        </div>
+                      </div>
+                      <div class="col-12 col-sm-4 col-md-3 py-4">
+                        <h5>Shop Pages</h5>
+                        <div class="list-group">
+                          <a class="list-group-item" href="#">Shop</a>
+                          <a class="list-group-item" href="#">Shop Left</a>
+                          <a class="list-group-item" href="#">Shop right sidebar</a>
+                          <a class="list-group-item" href="#">Shop Grid</a>
+                          <a class="list-group-item" href="#">Cart</a>
+                        </div>
+                      </div>
+                      <div class="col-12 col-sm-12 col-md-3 py-4">
+                        <div class="card">
+                          <img src="./asect/img/baner/menu-banner-1.jpg" class="img-fluid" alt="image">
+                          <div class="card-body">
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex ms-auto">
+            <div class="input-group">
+              <h2 class="text-info">Icone</h2>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- this is nav section  -->
   </header>
 
   <!-- js add  -->
