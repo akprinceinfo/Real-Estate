@@ -33,9 +33,7 @@ body {
 .header-top-left li a {
   color: #fff;
 }
-.header-top-right {
-  align-items: center;
-}
+
 .header-top-right li a i {
   font-size: 1.1rem;
   color: var(--white);
@@ -69,4 +67,33 @@ header-top-btn:hover {
 }
 .hamburger span {
   color: #fff;
+}
+.header-top-right {
+  align-items: center;
+}
+
+/* ---------------- */
+
+.header-serch input {
+  width: 14rem;
+  height: 2.5rem;
+  border: 1px solid #ff5a3c;
+  border-radius: 5px;
+}
+.header-serch {
+  background: #ece2e2;
+  padding: 0.8rem 1.2rem;
+  border-radius: 6px;
+  position: relative;
+}
+.header-serch i {
+  position: absolute;
+  right: 33px;
+  top: 35%;
+}
+.hamburger i {
+  color: black;
+}
+.nav-item a {
+  color: #0b2c3d;
 }
