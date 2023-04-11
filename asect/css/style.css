@@ -19,6 +19,9 @@ p {
 body {
   font-family: "Poppins", sans-serif;
 }
+.displayNone {
+  display: none !important;
+}
 /* this is header section  */
 .header-top-area {
   background: #0b2c3d;
@@ -96,4 +99,24 @@ header-top-btn:hover {
 }
 .nav-item a {
   color: #0b2c3d;
+}
+
+/* nav serch icon  */
+.header-serch-icone a i {
+  background: #fff;
+  color: black;
+  padding: 13px 15px;
+  font-size: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: all 0.5s ease;
+}
+.header-serch-icone a i:hover {
+  background: #ff5a3c;
+  color: #fff;
+}
+form.header-serch {
+  position: absolute;
+  top: 6rem;
+  right: 15rem;
 }
