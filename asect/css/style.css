@@ -102,21 +102,45 @@ header-top-btn:hover {
 }
 
 /* nav serch icon  */
-.header-serch-icone a i {
-  background: #fff;
-  color: black;
-  padding: 13px 15px;
-  font-size: 20px;
+.header-serch-icone a,
+.user-menu a,
+.shopping-cart-icon a {
+  background: #fdf4f4;
+  color: gray;
   border-radius: 5px;
   font-weight: bold;
-  transition: all 0.5s ease;
+  transition: all 0.1s ease;
+  min-width: 55px;
+  min-height: 50px;
+  text-align: center;
+  line-height: 50px;
+  display: block;
 }
-.header-serch-icone a i:hover {
+.header-serch-icone a:hover,
+.user-menu a:hover,
+.shopping-cart-icon a:hover {
   background: #ff5a3c;
   color: #fff;
 }
 form.header-serch {
   position: absolute;
-  top: 6rem;
-  right: 15rem;
+  top: 5rem;
+  right: 2rem;
+}
+.header-search-wrap {
+  position: relative;
+}
+/* shopping-cart-icon  */
+.shopping-cart-icon {
+  position: relative;
+}
+.shopping-cart-icon .card-count {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: gray;
+}
+
+.shopping-cart-icon:hover a .card-count {
+  color: #fff;
 }

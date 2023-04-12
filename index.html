@@ -14,6 +14,7 @@
   <!-- css add  -->
   <link rel="stylesheet" href="./asect/css/bootstrap.min.css" />
   <link rel="stylesheet" href="./asect/css/style.css" />
+  <link rel="stylesheet" href="./asect/css/responsive.css">
 </head>
 
 <body>
@@ -175,14 +176,13 @@
           <!-- header right section  -->
           <section class="d-flex ms-auto">
             <!-- header-options  -->
-            <div class="header-right d-flex gap-md-4">
-
+            <div class="header-right d-flex gap-md-2">
               <div class="header-search-wrap">
                 <div class="header-serch-icone text-end">
                   <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
                 </div>
                 <div class="header-serch-form">
-                  <form class="header-serch">
+                  <form class="header-serch displayNone ">
                     <input type="text" name="serch" id="">
                     <i class="fa-solid fa-magnifying-glass"></i>
                   </form>
@@ -190,12 +190,16 @@
               </div>
               <!-- header user menu  -->
               <div class="user-menu">
-                <li><a href="#"><i class="fa-regular fa-user"></i></a></li>
-
+                <a href="#"><i class="fa-regular fa-user"></i></a>
               </div>
               <!-- header shopping caed section  -->
               <div class="shopping-cart-icon">
-                <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i>
+                  <!-- <span class="card-count">2</span> -->
+                  <sup class="ps-1">2</sup>
+                </a>
+
+
               </div>
             </div>
           </section>
