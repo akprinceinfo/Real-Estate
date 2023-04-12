@@ -7,7 +7,7 @@ document.addEventListener('click',function(e){
 
 // header serch icone 
 
-const header_serch_icon = document.querySelector(".header-serch-icone a i");
+const header_serch_icon = document.querySelector(".header-serch-icone i");
 const header_serch = document.querySelector(".header-serch");
 
 header_serch_icon.addEventListener("click",()=>{

@@ -99,7 +99,6 @@
                 <li><a class="dropdown-item" href="#">Shop right sidebar</a></li>
                 <li><a class="dropdown-item" href="#">Shop details</a></li>
                 <li><a class="dropdown-item" href="#">Other Pages</a></li>
-
               </ul>
             </li>
             <!-- nav News  -->
@@ -179,7 +178,7 @@
             <div class="header-right d-flex gap-md-2">
               <div class="header-search-wrap">
                 <div class="header-serch-icone text-end">
-                  <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                  <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
                 <div class="header-serch-form">
                   <form class="header-serch displayNone ">
@@ -190,12 +189,21 @@
               </div>
               <!-- header user menu  -->
               <div class="user-menu">
-                <a href="#"><i class="fa-regular fa-user"></i></a>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle user-menu-padding" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+                    <i class="fa-regular fa-user"></i>
+                  </a>
+                  <ul class="dropdown-menu shadow">
+                    <li><a class="dropdown-item" href="#">Sign in</a></li>
+                    <li><a class="dropdown-item" href="#">Register</a></li>
+                    <li><a class="dropdown-item" href="#">My Account</a></li>
+                    <li><a class="dropdown-item" href="#">Wishlist</a></li>
+                  </ul>
+                </li>
               </div>
               <!-- header shopping caed section  -->
               <div class="shopping-cart-icon">
                 <a href="#"><i class="fa-solid fa-cart-shopping"></i>
-                  <!-- <span class="card-count">2</span> -->
                   <sup class="ps-1">2</sup>
                 </a>
 

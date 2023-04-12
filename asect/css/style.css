@@ -13,8 +13,8 @@
 a {
   text-decoration: none;
 }
-p {
-  color: #fff;
+ul {
+  padding: 0;
 }
 body {
   font-family: "Poppins", sans-serif;
@@ -102,7 +102,7 @@ header-top-btn:hover {
 }
 
 /* nav serch icon  */
-.header-serch-icone a,
+.header-serch-icone i,
 .user-menu a,
 .shopping-cart-icon a {
   background: #fdf4f4;
@@ -116,7 +116,7 @@ header-top-btn:hover {
   line-height: 50px;
   display: block;
 }
-.header-serch-icone a:hover,
+.header-serch-icone i:hover,
 .user-menu a:hover,
 .shopping-cart-icon a:hover {
   background: #ff5a3c;
@@ -131,9 +131,7 @@ form.header-serch {
   position: relative;
 }
 /* shopping-cart-icon  */
-.shopping-cart-icon {
-  position: relative;
-}
+
 .shopping-cart-icon .card-count {
   position: absolute;
   top: 5px;
@@ -143,4 +141,28 @@ form.header-serch {
 
 .shopping-cart-icon:hover a .card-count {
   color: #fff;
+}
+
+/* header user menu  */
+.user-menu-padding {
+  padding: 0;
+  color: gray;
+}
+.dropdown-menu[data-bs-popper] {
+  top: 100%;
+  left: -8rem;
+  margin-top: 0.125rem;
+}
+
+.nav-link.dropdown-toggle.user-menu-padding:focus {
+  color: gray;
+}
+
+.nav-link.dropdown-toggle.user-menu-padding.show:active {
+  color: white;
+  background-color: var(--primaryColler);
+}
+.nav-link.dropdown-toggle.user-menu-padding.show:focus {
+  color: #fff;
+  background: var(--priCollHover);
 }
