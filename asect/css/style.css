@@ -67,6 +67,8 @@ header-top-btn:hover {
   display: flex;
   justify-content: center;
   width: 100%;
+  position: absolute;
+  right: -100px;
 }
 .hamburger span {
   color: #fff;
@@ -89,11 +91,13 @@ header-top-btn:hover {
   border-radius: 6px;
   position: relative;
 }
+
 .header-serch i {
   position: absolute;
   right: 33px;
   top: 35%;
 }
+
 .hamburger i {
   color: black;
 }
@@ -122,7 +126,7 @@ header-top-btn:hover {
   background: #ff5a3c;
   color: #fff;
 }
-form.header-serch {
+.header-serch-form {
   position: absolute;
   top: 5rem;
   right: 2rem;
