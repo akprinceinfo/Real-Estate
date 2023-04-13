@@ -170,3 +170,24 @@ header-top-btn:hover {
   color: #fff;
   background: var(--priCollHover);
 }
+
+/* this is card design  */
+.card-design {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: auto;
+  display: block;
+  width: 400px;
+  height: 100vh;
+  padding: 20px 30px 20px 30px;
+  -webkit-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(0%);
+  background-color: #967373;
+  box-shadow: none;
+  z-index: 99999;
+}
