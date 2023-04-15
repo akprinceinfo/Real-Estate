@@ -191,7 +191,11 @@ header-top-btn:hover {
   box-shadow: none;
   z-index: 99999;
 }
-
+.card-icon.text-end i {
+  font-weight: bold;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
 /* mini-cart-product-area  */
 .mini-cart-product-area {
   width: 22rem;
@@ -227,17 +231,17 @@ header-top-btn:hover {
 
 /* button section  */
 .btns {
-  margin: 1%;
-  padding: 15px 35px;
+  padding: 15px 30px;
   border: 1px solid #d6970f;
   background: none;
   cursor: pointer;
   transition: 0.18s;
   position: relative;
   overflow: hidden;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: bold;
   border-radius: 5px;
+  text-transform: uppercase;
 }
 .btns::before {
   content: "";
