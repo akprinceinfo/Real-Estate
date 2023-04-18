@@ -312,3 +312,14 @@ header-top-btn:hover {
 .btn-Check:hover::before {
   width: 100%;
 }
+/* ----------this is Responsive nav section ---------------- */
+
+.responsive-nav {
+  width: 400px;
+  height: 100vh;
+  background-color: rgb(146, 121, 156);
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+/* Responsive nav scrch-box */
