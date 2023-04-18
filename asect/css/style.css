@@ -108,7 +108,8 @@ header-top-btn:hover {
 /* nav serch icon  */
 .header-serch-icone i,
 .user-menu a,
-.shopping-cart-icon a {
+.shopping-cart-icon a,
+.responsive-icone i {
   background: #fdf4f4;
   color: gray;
   border-radius: 5px;
@@ -119,10 +120,12 @@ header-top-btn:hover {
   text-align: center;
   line-height: 50px;
   display: block;
+  cursor: pointer;
 }
 .header-serch-icone i:hover,
 .user-menu a:hover,
-.shopping-cart-icon a:hover {
+.shopping-cart-icon a:hover,
+.responsive-icone i:hover {
   background: #ff5a3c;
   color: #fff;
 }

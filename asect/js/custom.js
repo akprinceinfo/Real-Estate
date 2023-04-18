@@ -28,6 +28,11 @@ card_icon.addEventListener("click",()=>{
   card_design.classList.remove("card-design-hide");
 });
 
+// responsive icone 
+const responsive_icone = document.querySelector(".responsive-icone i");
+responsive_icone.addEventListener("click",()=>{
+  alert("allah Mohan")
+});
 
 
 // header_serch_icon.addEventListener('click',()=>{
