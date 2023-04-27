@@ -327,4 +327,15 @@ header-top-btn:hover {
   right: 12px;
   top: 12px;
 }
+/* Hide scrollbar for Chrome, Safari and Opera */
+.responsive-nav::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.responsive-nav {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
 /* Responsive nav scrch-box */
