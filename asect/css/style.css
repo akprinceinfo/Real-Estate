@@ -312,7 +312,7 @@ header-top-btn:hover {
 .btn-Check:hover::before {
   width: 100%;
 }
-/* ----------this is Responsive nav section ---------------- */
+/* ----this is Responsive nav section ---------------- */
 
 .responsive-nav {
   width: 400px;
@@ -321,5 +321,10 @@ header-top-btn:hover {
   position: fixed;
   left: 0;
   top: 0;
+}
+/* -- scrch-box Button-- */
+.serch-btn {
+  right: 12px;
+  top: 12px;
 }
 /* Responsive nav scrch-box */
