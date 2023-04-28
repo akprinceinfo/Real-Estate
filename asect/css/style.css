@@ -339,3 +339,17 @@ header-top-btn:hover {
 }
 
 /* Responsive nav scrch-box */
+.responsive-socelicone ul li a {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  display: block;
+  color: #0b2c3d;
+  background-color: #5c727d;
+  transition: all 0.5s;
+}
+.responsive-socelicone ul li a:hover {
+  background-color: #ff5a3c;
+  color: #fff;
+}
