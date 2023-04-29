@@ -353,3 +353,16 @@ header-top-btn:hover {
   background-color: #ff5a3c;
   color: #fff;
 }
+a.text-dark.shadow.icon-width {
+  width: 45px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+.scrch-box form input {
+  border: 1px solid #e4ecf2;
+}
+.scrch-box form input:focus-visible {
+  border: 1px solid #e01111;
+  outline: none;
+}
