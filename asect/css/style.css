@@ -317,11 +317,25 @@ header-top-btn:hover {
 .responsive-nav {
   width: 400px;
   height: 100vh;
-  background-color: rgb(146, 121, 156);
+  background-color: rgb(233 227 235);
   position: fixed;
   left: 0;
   top: 0;
+  -webkit-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(-100%);
 }
+.responsive-nav-toggle {
+  transform: translateX(0%);
+}
+
+.responsive-nav-hide i {
+  cursor: pointer;
+}
+
 /* -- scrch-box Button-- */
 .serch-btn {
   right: 12px;
